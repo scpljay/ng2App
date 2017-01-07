@@ -1,6 +1,8 @@
 <div class="row">
 	<div class="col-md-5">
-		<fa-recipe-list></fa-recipe-list>
+		<fa-recipe-list (recipeSelected) ="selectedRecipe = $event"></fa-recipe-list>
 	</div>
-	<div class="col-md-7">Recipes Detail</div>
+	<div class="col-md-7">
+		<fa-recipe-detail [selectedRecipe] = "selectedRecipe"></fa-recipe-detail>
+	</div>
 </div>
