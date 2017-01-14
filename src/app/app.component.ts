@@ -9,5 +9,6 @@ import { ShoppingListComponent } from './shopping-list/shopping-list.component';
   styleUrls: ['./app.component.css']  
 })
 export class AppComponent {
+	
   
 }
